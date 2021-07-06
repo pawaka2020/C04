@@ -92,9 +92,9 @@ int ft_atoi(char *str)
   return (res * sign);
 }
 
-#include <stdio.h>
-int main(void)
-{
-int res = ft_atoi("      ---+--+1234ab567");
-printf("ft_atoi = %d\n", res);
-}
+// #include <stdio.h>
+// int main(void)
+// {
+// int res = ft_atoi("      ---+--+1234ab567");
+// printf("ft_atoi = %d\n", res);
+// }
